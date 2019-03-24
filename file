@@ -1,0 +1,7 @@
+
+app.route('/').get((req, res) => {
+  res.send({
+    stocks: [{ name: 'lilly', price: 100 }, { name: 'lucy', price: 200 }]
+  });
+});
+
